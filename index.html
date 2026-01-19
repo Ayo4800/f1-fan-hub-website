@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>F1 Fan Hub</title>
+  <meta name="description" content="A Formula 1 fan page with latest news, race calendar, and favorite drivers." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span>F1 Fan Hub</span>
+      </div>
+      <nav>
+        <div class="navlinks">
+          <a href="#news">News</a>
+          <a href="#calendar">Race Calendar</a>
+          <a href="#drivers">Drivers</a>
+          <a href="#teams">Teams</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact" class="cta">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="wrap grid">
+      <div>
+        <div class="kicker">Formula 1 • Passion for racing is a  Project</div>
+        <h1>All Things F1 — News, Race Calendar, Drivers & More</h1>
+        <p class="lede">
+          Welcome to <strong>F1 Fan Hub</strong> — a site made by a fan of F1, who follow F1 as a hobby.
+          Explore the world of F1: stay up to date with the latest races, learn about your favorite drivers and teams,
+          and relive the most thrilling moments in motorsport this year so far with six more races to go who will win the drivers championship.
+        </p>
+        <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="btn cta" href="#news">See Latest Posts</a>
+          <a class="btn" href="#calendar">Upcoming Races</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS SECTION -->
+  <section id="news" class="wrap">
+    <h2>Latest News</h2>
+
+    <article class="card" style="margin-bottom:16px;">
+      <div class="body">
+        <span class="chip">Headlines</span>
+        <h3>Mercedes deals end Verstappen speculation — for now</h3>
+        <p class="muted">
+          The spectre of Max Verstappen has hung heavily over both Mercedes drivers this season — and over Britain’s George Russell more so
+          than rookie Kimi Antonelli.
+        </p>
+      </div>
+    </article>
+
+    <div class="cards" id="newsCards">
+      <div class="card">
+        <img src="images/f1news1.jpg" alt="F1 News" loading="lazy" />
+        <div class="body">
+          <span class="chip">Opinion</span>
+          <h3>Street Circuits Spice Up the Season</h3>
+          <p class="muted">
+            A quick take on the balance between traditional tracks and city races.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/f1news2-temp.jpg" alt="F1 Tech" loading="lazy" />
+        <div class="body">
+          <span class="chip">Tech</span>
+          <h3>Ground Effect & Modern F1 Cars</h3>
+          <p class="muted">
+            Ground effect in F1 is an aerodynamic <em>principle</em> that uses tunnels under the car’s floor to accelerate air,
+            creating a low-pressure area that “sucks” the car to the track, increasing downforce and grip. After being banned in the
+            1980s due to safety concerns with side skirts, ground effect was reintroduced in the 2022 regulations to reduce dirty air
+            and promote closer racing.
+          </p>
+          <figure>
+            <img src="images/image.jpg" alt="Ground effect illustration" loading="lazy">
+            <figcaption class="muted">Ground effect illustration</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RACE CALENDAR -->
+  <section id="calendar" class="wrap">
+    <h2>Race Calendar 2025</h2>
+    <div style="overflow:auto; border-radius: 12px;">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Grand Prix</th>
+            <th>Circuit</th>
+            <th>Race Day Local Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Oct 03 – Oct 05</td><td>Singapore Grand Prix</td><td>Marina Bay Street Circuit</td><td>12:00 PM</td></tr>
+          <tr><td>Oct 17 – Oct 19</td><td>United States Grand Prix</td><td>Circuit of the Americas</td><td>1:00 PM</td></tr>
+          <tr><td>Oct 24 – Oct 26</td><td>Gran Premio de la Ciudad de México</td><td>Autódromo Hermanos Rodríguez</td><td>1:00 PM</td></tr>
+          <tr><td>Nov 07 – Nov 09</td><td>Grande Prêmio de São Paulo</td><td>Autódromo José Carlos Pace (Interlagos)</td><td>2:00 PM</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- DRIVERS SECTION -->
+  <section id="drivers" class="wrap">
+    <h2>Favorite Drivers</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/lewis-temp.jpg" alt="Lewis Hamilton" loading="lazy" />
+        <div class="body">
+          <span class="chip">Ferrari</span>
+          <h3>Lewis Hamilton</h3>
+          <p class="muted">Seven-time world champion and icon of the sport.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/max-temp.jpg" alt="Max Verstappen" loading="lazy" />
+        <div class="body">
+          <span class="chip">Red Bull</span>
+          <h3>Max Verstappen</h3>
+          <p class="muted">Four-time world champion known for his aggressive driving and relentless pace.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/lando-temp.jpg" alt="Lando Norris" loading="lazy" />
+        <div class="body">
+          <span class="chip">McLaren</span>
+          <h3>Lando Norris</h3>
+          <p class="muted">The rising star from Britain, full of energy and talent.</p>
+        </div>
+      </div>
+
+      
+      <div class="card">
+        <img src="images/piastri-temp.jpg" alt="Oscar Piastri" loading="lazy" />
+        <div class="body">
+          <span class="chip">McLaren</span>
+          <h3>Oscar Piastri</h3>
+          <p class="muted">Promising young talent with sharp racing instincts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAMS SECTION -->
+  <section id="teams" class="wrap">
+    <h2>Teams</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/redbull-temp.jpg" alt="Red Bull Racing" loading="lazy" />
+        <div class="body">
+          <span class="chip">HQ: Milton Keynes</span>
+          <h3>Red Bull Racing</h3>
+          <p class="muted">Dominant in the hybrid era with unmatched strategy and pace.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/ferrari-temp.jpg" alt="Scuderia Ferrari" loading="lazy" />
+        <div class="body">
+          <span class="chip">HQ: Maranello</span>
+          <h3>Scuderia Ferrari</h3>
+          <p class="muted">The most iconic team in Formula 1 history.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/mclaren-temp.jpg" alt="McLaren F1" loading="lazy" />
+        <div class="body">
+          <span class="chip">HQ: Woking</span>
+          <h3>McLaren F1 Team</h3>
+          <p class="muted">Innovative engineering and a new generation of drivers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="wrap">
+    <h2>Photo Gallery</h2>
+    <p>Last stop at Singapore grand Prix - George Russell the Winner, Mclaren wrap up their second constructor title in as many years</p>
+    <div class="gallery">
+      <img class="shot" src="images/mclaren_winner.jpg" alt="F1 constructor winner celebration" loading="lazy" />
+      <img class="shot" src="images/track.jpg" alt="Race track" loading="lazy" />
+      <img class="shot" src="images/start.jpg" alt="Starting grid" loading="lazy" />
+      <img class="shot" src="images/podium.jpg" alt="Podium celebration" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="wrap">
+    <h2>Contact</h2>
+    <p>Send your comments or feedback below:</p>
+    <form onsubmit="event.preventDefault(); alert('Thank you! This form is a placeholder.');" style="display:grid; gap:10px; max-width: 560px;">
+      <input required placeholder="Your name" style="padding:12px; border-radius:8px; border:1px solid #ccc;">
+      <input required type="email" placeholder="Email" style="padding:12px; border-radius:8px; border:1px solid #ccc;">
+      <textarea required rows="4" placeholder="Message" style="padding:12px; border-radius:8px; border:1px solid #ccc;"></textarea>
+      <button class="btn cta" type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <p>© <span id="year"></span> F1 Fan Hub — Built by Ayo Dahunsi </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
